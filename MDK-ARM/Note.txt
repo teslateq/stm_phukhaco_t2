@@ -1,0 +1,9 @@
+Rs485_v2 
+- TxRx dau vao y chang k can thay doi
+- khong can truyen them byte 0 o cuoi
+
+
+fix: staCGATT[0]
+	- Reload for next check
+	- stepConn = 0
+	
